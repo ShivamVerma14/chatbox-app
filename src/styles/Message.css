@@ -1,0 +1,29 @@
+.message {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    width: 60%;
+    padding: 1rem;
+
+    border: none;
+    border-radius: 2rem;
+
+    color: #F5F5F5;
+}
+
+.sent {
+    background-color: #F99417;
+    margin-left: auto;
+}
+
+.received {
+    background-color: #4D4C7D;
+}
+
+
+.message-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+}

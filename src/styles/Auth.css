@@ -1,0 +1,58 @@
+.auth-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 10px;
+
+    background-color: #F5F5F5;
+    height: 100vh;
+}
+
+.brand {
+    display: flex;
+    flex-direction: column;
+
+    margin: 2rem;
+}
+
+.logo h1 {
+    color: #363062;
+}
+
+.brand-lines {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.brand-lines p {
+    color: #F99417;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.auth-provider {
+    background-color: #F99417;
+    color: #F5F5F5;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.auth-provider p {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.auth-provider button {
+    background-color: #4D4C7D;
+    color: #F5F5F5;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    cursor: pointer;
+}

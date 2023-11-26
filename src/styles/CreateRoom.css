@@ -1,0 +1,66 @@
+.room {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    padding: 1.5rem 2rem 0 2rem;
+}
+
+.room-page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.room-page-header h1 {
+    color: #363062;
+}
+
+.room-page-header button {
+    background-color: #363062;
+    color: #F5F5F5;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    cursor: pointer;
+
+    font-weight: 500;
+}
+
+.room-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.room-container h2 {
+    color: #4D4C7D;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.room-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.room-form input[type="text"] {
+    border: 1px solid #F99417;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 100%;
+}
+
+.room-form button {
+    background-color: #F99417;
+    color: #F5F5F5;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    cursor: pointer;
+
+    font-weight: 500;
+}
